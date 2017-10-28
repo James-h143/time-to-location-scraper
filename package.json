@@ -1,0 +1,19 @@
+{
+  "name": "average-time-to-manchester",
+  "version": "1.0.0",
+  "description": "script to get the average time to a given location over the course of a set amount of time and then publish that information to a local html page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameshennigan/time-to-location-scraper.git"
+  },
+  "author": "James Hennigan",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jameshennigan/time-to-location-scraper/issues"
+  },
+  "homepage": "https://github.com/jameshennigan/time-to-location-scraper#readme"
+}
