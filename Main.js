@@ -1,6 +1,6 @@
-var impGLOBAL = require('./oGLOBAL.js'); var oGlobal = impGLOBAL.oGLOBAL;
-var impDbecho = require('./dbEcho.js'); var dbEcho = impDbecho.dbEcho;
-var impGetRawData = require('./getRawData.js'); var getRawData = impGetRawData.getRawData;
+var impGLOBAL = require('./oGLOBAL'); var oGlobal = impGLOBAL.oGLOBAL;
+var impDbecho = require('./dbEcho'); var dbEcho = impDbecho.dbEcho;
+var impGetRawData = require('./getRawData'); var getRawData = impGetRawData.getRawData;
 
 
 var Main = function(){
