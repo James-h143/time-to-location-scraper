@@ -1,10 +1,10 @@
-
+var impGLOBAL = require('./oGLOBAL.js'); var oGlobal = impGLOBAL.oGLOBAL;
 
 var dbEcho = function(str) {
-    if(GLOBAL.debugMode == 1) {
+    if(oGlobal.debugMode == 1) {
         console.log(str)
     }
 
 }
 
-module.exports = dbEcho
+module.exports.dbEcho = dbEcho

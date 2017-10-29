@@ -1,3 +1,5 @@
-var impMain = require('./Main.js'); var Main = impMain.Main
+var impMain = require('./Main'); var Main = impMain.Main;
+var impDbecho = require('./dbEcho.js'); var dbEcho = impDbecho.dbEcho;
 
-Main()
+dbEcho("index has been triggered")
+Main();
